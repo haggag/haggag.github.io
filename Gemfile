@@ -1,8 +1,8 @@
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "jekyll-theme-so-simple", path: "../"
+# gem "jekyll"
 gem "github-pages", group: :jekyll_plugins
+gem "jekyll-theme-so-simple", :git => "https://github.com/mmistakes/so-simple-theme.git", :branch => "master"
 
 gem "tzinfo-data"
 
@@ -12,8 +12,6 @@ group :jekyll_plugins do
   gem "jekyll-sitemap"
   gem "jekyll-gist"
   gem "jekyll-feed"
-  gem "jekyll-data"
-  gem "jekyll-seo-tag"
   gem "jemoji"
   gem "jekyll-redirect-from"
 end
