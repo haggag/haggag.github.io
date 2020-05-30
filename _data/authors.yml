@@ -1,0 +1,9 @@
+Ahmad Haggag:
+  name: Ahmad Haggag
+  web: https://haggag.net
+  email: ahmad.haggag@gmail.com
+  twitter: "@ahaggag"
+  links:
+    - title: Twitter
+      url: https://twitter.com/ahaggag
+      icon: fab fa-twitter-square
