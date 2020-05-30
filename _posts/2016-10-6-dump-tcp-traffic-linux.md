@@ -12,9 +12,9 @@ The tcpump is a Linux command line tool which helps alot debuging such firewall 
 ### E-mail Servers
 Verify if ports 587 or 25 are receiving (email) traffic:
 
-{% highlight bash %}
+```
 tcpdump -n -i eth0 'tcp and (port 587 or port 25)'
-{% endhighlight %}
+```
 
 
 ### VPN Servers
