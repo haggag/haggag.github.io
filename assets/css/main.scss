@@ -6,3 +6,7 @@ sitemap: false
 @charset "utf-8";
 
 @import "so-simple";
+
+.page-title, .entry-title  {
+    font-style: normal !important;
+}
